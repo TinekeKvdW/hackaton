@@ -1,0 +1,113 @@
+body {
+    color: #004c8f;
+    font-family: tahoma; 
+    font-size: 20px; 
+}
+header {
+    text-align: center;
+}
+
+main {
+    text-align: left;
+    margin: 10px 5px; 
+    padding: 10px 3px;
+}
+aside {
+    text-align: center;
+}
+h2 {
+    background-color: #c1c2f5;
+    margin: 0;
+    padding: 5px;
+}
+footer {
+    margin: 0;
+    padding: 10px 25px;
+    background-color: #decfc1;
+}
+li {
+    float: left;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #decfc1;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+}
+.navigation-links li {
+    float: left;
+}
+.navigation-links li a {
+      display: block;
+      color: #004c8f;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+}
+.navigation-links li a:hover:not(.active) {
+    background-color: #a3a3c7;
+}
+.active {
+    background-color: #c29782;
+}
+aside {
+    width: 30%;
+    padding-left: 15px;
+    margin-left: 15px;
+    float: right;
+    font-style: italic;
+  }
+.coupon {
+	width: 400px;
+    margin: 30px 3px 10px 3px;
+	padding: 10px 5px;
+	text-align: center;
+	border: 10px dashed #c29782; 
+    list-style: none;
+}
+@media (min-width: 768px) {
+    article {
+        width: 475px;
+        margin: 10px 3px;
+        padding: 10px 5px;
+        text-align: left;
+        border: 10px dashed #c29782; 
+        list-style: none;
+    }
+}
+@media (min-width: 1024px) {
+    header {
+        text-align: left;
+    }
+    body {
+        background-color: #decfc1;
+        color: #004c8f;
+        font-size: 16px;
+        font-weight: 150;
+        line-height: 1.5;
+    }
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #a3a3c7;
+        position: -webkit-sticky; /* Safari */
+        position: sticky;
+        top: 0;
+    }
+    article {
+        width: 1000px;
+        border: none 
+    }
+    aside {
+        text-align: left;
+    }
+    .active {
+        background-color: #c1c2f5;
+    }
+}
